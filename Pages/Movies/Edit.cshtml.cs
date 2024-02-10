@@ -49,7 +49,9 @@ namespace RazorPagesMovie.Pages.Movies
                 return NotFound();
             }
             if (await TryUpdateModelAsync<Movie>(movieUpdate,
-            "Movie", m => m.Title, m => m.ReleaseDate, m => m.Genre, m => m.Price))
+            "Movie",
+             m => m.Title, m => m.ReleaseDate,
+            m => m.Genre, m => m.Price,m=>m.Rating))
             {
                 await _context.SaveChangesAsync();
                 return RedirectToPage("./Index");

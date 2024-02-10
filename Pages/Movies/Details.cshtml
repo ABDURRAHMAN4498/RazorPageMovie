@@ -15,23 +15,28 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Movie.Title" class="control-label"></label>
-                <input asp-for="Movie.Title" class="form-control" />
+                <input asp-for="Movie.Title" class="form-control" disabled/>
                 <span asp-validation-for="Movie.Title" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Movie.ReleaseDate" class="control-label"></label>
-                <input asp-for="Movie.ReleaseDate" class="form-control" />
+                <label asp-for="Movie.ReleaseDate" class="control-label" ></label>
+                <input asp-for="Movie.ReleaseDate" class="form-control" disabled/>
                 <span asp-validation-for="Movie.ReleaseDate" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Movie.Genre" class="control-label"></label>
-                <input asp-for="Movie.Genre" class="form-control" />
+                <input asp-for="Movie.Genre" class="form-control" disabled/>
                 <span asp-validation-for="Movie.Genre" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Movie.Price" class="control-label"></label>
-                <input asp-for="Movie.Price" class="form-control" />
+                <input asp-for="Movie.Price" class="form-control" disabled/>
                 <span asp-validation-for="Movie.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Movie.Rating" class="control-label"></label>
+                <input asp-for="Movie.Rating" class="form-control" disabled/>
+                <span asp-validation-for="Movie.Rating" class="text-danger"></span>
             </div>
             
         </form>
@@ -39,7 +44,7 @@
 </div>
 
 <div>
-    <a asp-page="Index">Back to List</a>
+    <a class="my-1" asp-page="Index" >Back to List</a>
 </div>
 
 @section Scripts {
