@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4VDMvtOK5iw+1PGai+6J7ov5VyHpLOMrnYJb4iwS0+Ixg0JCD3CANxmnC3Ffn6FWlfYTuAur90ENYAvcqGopZQ==",
+  "dgSpecHash": "y4SvL9lpVHwjANVgx620FW1vhorjMuuHp7T4dA33drM5asfc2tWmEmYR6SMi9QB9WZj32piG63c6lnwARtbm+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPageMovie\\RazorPageMovie.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPagesMovie\\RazorPageMovie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

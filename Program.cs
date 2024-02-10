@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using RazorPageMovie.Data;
+using RazorPagesMovie.Data;
 using RazorPagesMovie.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +12,8 @@ builder.Services.AddDbContext<RazorPagesMovieContext>(options =>
 
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope()){
+using (var scope = app.Services.CreateScope())
+{
     var services = scope.ServiceProvider;
     SeedData.Initialize(services);
 

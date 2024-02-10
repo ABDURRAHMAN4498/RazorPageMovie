@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPageMovie\\RazorPageMovie.csproj": {}
+    "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPagesMovie\\RazorPageMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPageMovie\\RazorPageMovie.csproj": {
+    "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPagesMovie\\RazorPageMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPageMovie\\RazorPageMovie.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPagesMovie\\RazorPageMovie.csproj",
         "projectName": "RazorPageMovie",
-        "projectPath": "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPageMovie\\RazorPageMovie.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPagesMovie\\RazorPageMovie.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPageMovie\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPagesMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
