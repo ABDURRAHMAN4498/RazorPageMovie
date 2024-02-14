@@ -10335,27 +10335,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\asus\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPagesMovie\\RazorPageMovie.csproj",
+      "projectUniqueName": "C:\\VscodeFile\\ASPNETCORE\\RazorPageMovie\\RazorPageMovie.csproj",
       "projectName": "RazorPageMovie",
-      "projectPath": "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPagesMovie\\RazorPageMovie.csproj",
-      "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Desktop\\vscodefile\\Asp.net\\DotNet Doc\\RazorPagesMovie\\obj\\",
+      "projectPath": "C:\\VscodeFile\\ASPNETCORE\\RazorPageMovie\\RazorPageMovie.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\VscodeFile\\ASPNETCORE\\RazorPageMovie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10416,7 +10413,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
       }
     }
   }

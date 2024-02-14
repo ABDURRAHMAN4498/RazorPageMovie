@@ -1,11 +1,11 @@
 @page "{id:int?}"
-@model RazorPagesMovie.Pages.Movies.DetailsModel
+@model RazorPagesMovie.Pages.Movies.DeleteModel
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Delete";
 }
 
-<h1>Details</h1>
+<h1>Delete</h1>
 
 <div class="row">
     <h4>Movie</h4>
@@ -38,12 +38,15 @@
                 <input asp-for="Movie.Rating" class="form-control" disabled />
                 <span asp-validation-for="Movie.Rating" class="text-danger"></span>
             </div>
-
+            <div class="form-group my-3">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+            </div>
         </form>
     </div>
 </div>
 
 <div>
+
     <a class="my-1" asp-page="Index">Back to List</a>
 </div>
 
